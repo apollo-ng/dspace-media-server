@@ -1,0 +1,13 @@
+{
+  "name": "dspace-media-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository": "https://github.com/apollo-ng/dspace-media-server.git",
+  "license": "Unlicense",
+  "dependencies": {}
+}
