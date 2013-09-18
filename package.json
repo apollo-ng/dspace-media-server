@@ -9,5 +9,9 @@
   "author": "",
   "repository": "https://github.com/apollo-ng/dspace-media-server.git",
   "license": "Unlicense",
-  "dependencies": {}
+  "dependencies": {
+    "nconf": "~0.6.7",
+    "express": "~3.4.0",
+    "cors": "~1.0.1"
+  }
 }

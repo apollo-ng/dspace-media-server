@@ -1,0 +1,8 @@
+{
+  "server": {
+    "port": 5000
+  },
+  "uploads": {
+    "path": "/tmp/uploads"
+  }
+}
