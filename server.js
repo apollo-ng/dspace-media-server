@@ -24,8 +24,8 @@ app.use(express.static(nconf.get('uploads').path));
 app.use(express.multipart());
 
 function saveAttachement(fields, files) {
-  var noteUUID = JSON.parse(fields.meta).noteUUID;
-  var destination = nconf.get('uploads').path + '/' +  noteUUID;
+  var uuid = JSON.parse(fields.meta).uuid;
+  var destination = nconf.get('uploads').path + '/' +  uuid;
 
   var is = fs.createReadStream(files.file.path);
   var os = fs.createWriteStream(destination);
